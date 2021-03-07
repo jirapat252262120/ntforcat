@@ -1,0 +1,57 @@
+#textcolor1{
+    
+    /*! สี Text สบายตา */
+    color: rgb(100, 99, 99);
+}
+#bgsabuytar{
+    /*! bg สีสบายตา */
+    background: rgb(228, 226, 226);
+}
+#bg_web{
+    background: rgb(51, 51, 51);
+}
+#linkCaterogy:hover{
+    background: rgb(223, 223, 223);
+}
+
+#contact_img{
+    margin-top: 1pc;
+        border: 2px solid rgb(77, 76, 76);
+        border-radius: 1pc;
+        display:flex;
+        align-self:center;
+        width:150px;
+        height: 180px;
+}
+
+#link_hover:hover{
+    background:#5c96ee;
+    color: white;
+    transition: 0.3s;
+}
+#nopass{
+    transition: 0.3s;
+}
+#scroll_table{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+@media (max-width:1198px) {
+    #contact_img{
+        margin-top: 1pc;
+        border: 2px solid rgb(77, 76, 76);
+        border-radius: 1pc;
+        display:flex;
+        align-self:center;
+        width:150px;
+        height: 180px;
+
+    }
+
+    #login_butt{
+        width: 100%;
+    }
+
+}
+
